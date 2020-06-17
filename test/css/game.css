@@ -28,8 +28,8 @@ h1 {
 
 .cell {
   float: left;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   border: 1px solid lightgray;
   position: relative;
   color: black;
@@ -109,6 +109,48 @@ h1 {
 .white-bg {
   background-color: white;
   color: black;
+}
+
+.charm-red-bg{
+  background-color: #f34135;
+}
+
+.charm-black-bg{
+  background-color: black;
+  color: white;
+}
+
+.charm-yellow-bg{
+  background-color: #ffeb3c;
+}
+
+.charm-orange-bg{
+  background-color: #ff9700;
+}
+
+.charm-white-bg{
+  background-color: white;
+}
+
+.sonic-black-bg{
+  background-color: black;
+  color: white;
+}
+
+.sonic-white-bg{
+  background-color: white;
+}
+
+.sonic-blue-bg{
+  background-color: #2196f3;
+}
+
+.sonic-tan-bg{
+  background-color: #f4ac72;
+}
+
+.sonic-red-bg{
+  background-color: #d50100;
 }
 
 .hide-copy p {
