@@ -28,8 +28,8 @@ h1 {
 
 .cell {
   float: left;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   border: 1px solid lightgray;
   position: relative;
   color: black;
@@ -81,6 +81,7 @@ h1 {
 
 .red-bg {
   background-color: #ED1B24;
+  color: black;
 }
 
 .brown-bg {
@@ -90,6 +91,7 @@ h1 {
 
 .tan-bg {
   background-color: #FFC20F;
+  color: black;
 }
 
 .black-bg {
@@ -99,6 +101,7 @@ h1 {
 
 .blue-bg {
   background-color: #00B7F0;
+  color: black;
 }
 
 .yellow-bg {
@@ -113,6 +116,7 @@ h1 {
 
 .charm-red-bg{
   background-color: #f34135;
+  color: black;
 }
 
 .charm-black-bg{
@@ -122,14 +126,17 @@ h1 {
 
 .charm-yellow-bg{
   background-color: #ffeb3c;
+  color: black;
 }
 
 .charm-orange-bg{
   background-color: #ff9700;
+  color: black;
 }
 
 .charm-white-bg{
   background-color: white;
+  color: black;
 }
 
 .sonic-black-bg{
@@ -139,18 +146,22 @@ h1 {
 
 .sonic-white-bg{
   background-color: white;
+  color: black;
 }
 
 .sonic-blue-bg{
   background-color: #2196f3;
+  color: black;
 }
 
 .sonic-tan-bg{
   background-color: #f4ac72;
+  color: black;
 }
 
 .sonic-red-bg{
   background-color: #d50100;
+  color: black;
 }
 
 .push-black-bg{
@@ -160,19 +171,124 @@ h1 {
 
 .push-white-bg{
   background-color: white;
+  color: black;
 }
 
 .push-grey-bg{
   background-color: #9e9596;
+  color: black;
 }
 
 .push-darkgrey-bg{
   background-color: #4c3e3d;
+  color: black;
 }
 
 .push-pink-bg{
   background-color: #e44eb9;
+  color: black;
 }
+
+.minion-black-bg{
+  background-color: black;
+  color: white;
+}
+
+.minion-white-bg{
+  background-color: white;
+  color: black;
+}
+
+.minion-green-bg{
+  background-color: green;
+  color: black;
+}
+
+.minion-grey-bg{
+  background-color: #535353;
+  color: white;
+}
+
+.minion-blue-bg{
+  background-color: #35e7c7;
+  color: black;
+}
+
+.minion-red-bg{
+  background-color: red;
+  color: black;
+}
+
+.minion-black-bg{
+  background-color: black;
+}
+
+.minion-yellow-bg{
+  background-color: yellow;
+  color: black;
+}
+
+.kitty-red-bg{
+  background-color: #ff0000;
+  color: black;
+}
+
+.kitty-white-bg{
+  background-color: #ffffff;
+  color: black;
+}
+
+.kitty-black-bg{
+  background-color: #000000;
+  color: white;
+}
+
+.sword-dgreen-bg{
+  background-color: #135f52;
+  color: black;
+}
+
+.sword-lgreen-bg{
+  background-color: #35e7c7;
+  color: black;
+}
+
+.sword-brown-bg{
+  background-color: #876526;
+  color: black;
+}
+
+.sword-white-bg{
+  background-color: #ffffff;
+  color: black;
+}
+
+.ice-lpink-bg{
+  background-color: #faadd7;
+  color: black;
+}
+
+.ice-dpink-bg{
+  background-color: #d2007f;
+  color: black;
+}
+
+.ice-yellow-bg{
+  background-color: #fcbb00;
+  color: black;
+}
+
+.ice-black-bg{
+  background-color: #000000;
+  color: black;
+  color: white;
+}
+
+.ice-white-bg{
+  background-color: #ffffff;
+  color: black;
+}
+
 
 .hide-copy p {
   display: none;

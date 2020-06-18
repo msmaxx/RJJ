@@ -225,6 +225,160 @@ $("#push-pink-btn").on("click", function () {
   $(this).addClass("selected");
 });
 
+$("minion-red-btn").on("click", function () {
+  color = "minion-red-bg";
+  colorNumber = "1";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("minion-blue-btn").on("click", function () {
+  color = "minion-blue-bg";
+  colorNumber = "2";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("minion-green-btn").on("click", function () {
+  color = "minion-green-bg";
+  colorNumber = "3";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("minion-black-btn").on("click", function () {
+  color = "minion-black-bg";
+  colorNumber = "4";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("minion-grey-btn").on("click", function () {
+  color = "minion-grey-bg";
+  colorNumber = "5";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("minion-yellow-btn").on("click", function () {
+  color = "minion-yellow-bg";
+  colorNumber = "6";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("minion-white-btn").on("click", function () {
+  color = "minion-white-bg";
+  colorNumber = "7";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#kitty-red-btn").on("click", function () {
+  color = "kitty-red-bg";
+  colorNumber = "1";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#kitty-white-btn").on("click", function () {
+  color = "kitty-white-bg";
+  colorNumber = "2";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#kitty-black-btn").on("click", function () {
+  color = "kitty-black-bg";
+  colorNumber = "3";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#sword-dgreen-btn").on("click", function () {
+  color = "sword-dgreen-bg";
+  colorNumber = "1";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#sword-lgreen-btn").on("click", function () {
+  color = "sword-lgreen-bg";
+  colorNumber = "2";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#sword-brown-btn").on("click", function () {
+  color = "sword-brown-bg";
+  colorNumber = "3";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#sword-white-btn").on("click", function () {
+  color = "sword-white-bg";
+  colorNumber = "4";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#ice-lpink-btn").on("click", function () {
+  color = "ice-lpink-bg";
+  colorNumber = "1";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#ice-dpink-btn").on("click", function () {
+  color = "ice-dpink-bg";
+  colorNumber = "2";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#ice-yellow-btn").on("click", function () {
+  color = "ice-yellow-bg";
+  colorNumber = "3";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#ice-black-btn").on("click", function () {
+  color = "ice-black-bg";
+  colorNumber = "4";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#ice-white-btn").on("click", function () {
+  color = "ice-white-bg";
+  colorNumber = "5";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#dead-red-btn").on("click", function () {
+  color = "dead-red-bg";
+  colorNumber = "1";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#dead-white-btn").on("click", function () {
+  color = "dead-white-bg";
+  colorNumber = "2";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#dead-black-btn").on("click", function () {
+  color = "dead-black-bg";
+  colorNumber = "3";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
 // On click of any of the cells...
 $(".cell").on("click", function () {
   // Set data-color attribute to colorNumber variable
@@ -266,7 +420,29 @@ $(".cell").on("click", function () {
     $(this).hasClass("push-black-bg") ||
     $(this).hasClass("push-white-bg") ||
     $(this).hasClass("push-grey-bg") ||
-    $(this).hasClass("push-darkgrey-bg") 
+    $(this).hasClass("push-darkgrey-bg") ||
+    $(this).hasClass("minion-red-bg") ||
+    $(this).hasClass("minion-black-bg") ||
+    $(this).hasClass("minion-grey-bg") ||
+    $(this).hasClass("minion-green-bg") ||
+    $(this).hasClass("minion-white-bg") ||
+    $(this).hasClass("minion-purple-bg") ||
+    $(this).hasClass("minion-yellow-bg") ||
+    $(this).hasClass("kitty-red-bg") ||
+    $(this).hasClass("kitty-white-bg") ||
+    $(this).hasClass("kitty-black-bg") ||
+    $(this).hasClass("sword-dgreen-bg") ||
+    $(this).hasClass("sword-lgreen-bg") ||
+    $(this).hasClass("sword-brown-bg") ||
+    $(this).hasClass("sword-white-bg") ||
+    $(this).hasClass("ice-lpink-bg") ||
+    $(this).hasClass("ice-dpink-bg") ||
+    $(this).hasClass("ice-yellow-bg") ||
+    $(this).hasClass("ice-black-bg") ||
+    $(this).hasClass("ice-white-bg") ||
+    $(this).hasClass("dead-red-bg") ||
+    $(this).hasClass("dead-white-bg") ||
+    $(this).hasClass("dead-black-bg") 
   ) {
     // Remove all colors and add selected color
     $(this).removeClass("red-bg");
@@ -300,6 +476,28 @@ $(".cell").on("click", function () {
     $(this).removeClass("push-grey-bg");
     $(this).removeClass("push-darkgrey-bg");
     $(this).removeClass("push-white-bg");
+    $(this).removeClass("minion-red-bg");
+    $(this).removeClass("minion-black-bg");
+    $(this).removeClass("minion-grey-bg");
+    $(this).removeClass("minion-green-bg");
+    $(this).removeClass("minion-white-bg");
+    $(this).removeClass("minion-purple-bg");
+    $(this).removeClass("minion-yellow-bg");
+    $(this).removeClass("kitty-red-bg");
+    $(this).removeClass("kitty-white-bg");
+    $(this).removeClass("kitty-black-bg");
+    $(this).removeClass("sword-dgreen-bg");
+    $(this).removeClass("sword-lgreen-bg");
+    $(this).removeClass("sword-brown-bg");
+    $(this).removeClass("sword-white-bg");
+    $(this).removeClass("ice-lpink-bg");
+    $(this).removeClass("ice-dpink-bg");
+    $(this).removeClass("ice-yellow-bg");
+    $(this).removeClass("ice-black-bg");
+    $(this).removeClass("ice-white-bg");
+    $(this).removeClass("dead-red-bg");
+    $(this).removeClass("dead-white-bg");
+    $(this).removeClass("dead-black-bg");
     $(this).addClass(color);
     $(this).addClass("hide-copy");
   } else {
@@ -343,6 +541,27 @@ $("#clear").on("click", function () {
   $(".cell").removeClass("push-pink-bg");
   $(".cell").removeClass("push-grey-bg");
   $(".cell").removeClass("push-darkgrey-bg");
+  $(".cell").removeClass("minion-black-bg");
+  $(".cell").removeClass("minion-white-bg");
+  $(".cell").removeClass("minion-grey-bg");
+  $(".cell").removeClass("minion-green-bg");
+  $(".cell").removeClass("minion-red-bg");
+  $(".cell").removeClass("minion-purple-bg");
+  $(".cell").removeClass("minion-yellow-bg");$(this).removeClass("kitty-red-bg");
+  $(".cell").removeClass("kitty-white-bg");
+  $(".cell").removeClass("kitty-black-bg");
+  $(".cell").removeClass("sword-dgreen-bg");
+  $(".cell").removeClass("sword-lgreen-bg");
+  $(".cell").removeClass("sword-brown-bg");
+  $(".cell").removeClass("sword-white-bg");
+  $(".cell").removeClass("ice-lpink-bg");
+  $(".cell").removeClass("ice-dpink-bg");
+  $(".cell").removeClass("ice-yellow-bg");
+  $(".cell").removeClass("ice-black-bg");
+  $(".cell").removeClass("ice-white-bg");
+  $(".cell").removeClass("dead-red-bg");
+  $(".cell").removeClass("dead-white-bg");
+  $(".cell").removeClass("dead-black-bg");
   $(".cell").removeClass("hide-copy");
 });
 
@@ -385,6 +604,28 @@ $("#check").on("click", function () {
       $(test).removeClass("push-grey-bg");
       $(test).removeClass("push-darkgrey-bg");
       $(test).removeClass("push-pink-bg");
+      $(test).removeClass("minion-black-bg");
+      $(test).removeClass("minion-white-bg");
+      $(test).removeClass("minion-grey-bg");
+      $(test).removeClass("minion-green-bg");
+      $(test).removeClass("minion-red-bg");
+      $(test).removeClass("minion-purple-bg");
+      $(test).removeClass("minion-yellow-bg");
+      $(test).removeClass("kitty-red-bg");
+      $(test).removeClass("kitty-white-bg");
+      $(test).removeClass("kitty-black-bg");
+      $(test).removeClass("sword-dgreen-bg");
+      $(test).removeClass("sword-lgreen-bg");
+      $(test).removeClass("sword-brown-bg");
+      $(test).removeClass("sword-white-bg");
+      $(test).removeClass("ice-lpink-bg");
+      $(test).removeClass("ice-dpink-bg");
+      $(test).removeClass("ice-yellow-bg");
+      $(test).removeClass("ice-black-bg");
+      $(test).removeClass("ice-white-bg");
+      $(test).removeClass("dead-red-bg");
+      $(test).removeClass("dead-white-bg");
+      $(test).removeClass("dead-black-bg");
       $(test).removeClass("hide-copy");
     }
   }

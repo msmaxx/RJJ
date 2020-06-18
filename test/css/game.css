@@ -257,23 +257,6 @@ h1 {
   background-color: #ffffff;
 }
 
-.dead-red-bg{
-  background-color: #ee4035 ;
-}
-
-.dead-white-bg{
-  background-color: #ffffff;
-}
-
-.dead-black-bg{
-  background-color: #000000;
-  color: white;
-}
-.sonic-black-bg{
-  background-color: black;
-  color: white;
-}
-
 .hide-copy p {
   display: none;
 }
