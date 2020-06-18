@@ -8,108 +8,121 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Ruutude järgi joonistamise mäng</title>
+  <title>RJJ</title>
 
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary  fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><b>RJJ</b> - Ruutude järgi joonistamise</a>
+      <a class="navbar-brand" href="#">RJJ MÄNG</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Avaleht</a>
+            <a class="nav-link" href="index.html">Avaleht
+              <span class="sr-only"></span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Meist</a>
+            <a class="nav-link" href="#">Pildid</a>
+          </li>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">Ruutude Jargi Joonistamine</h1>
+          <p class="lead mb-5 text-white-50">Värv arvu järgi - on sõltuvust tekitav stressivastane pikslite kunstimäng. Valige paljude lõbusate pikslipiltide hulgast ja järgige neid ellu viimiseks numbreid. Pikslite värvimine pole kunagi varem olnud nii lihtne!</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
   <div class="container">
 
-    <header class="jumbotron my-4">
-      <h1 class="display-3">Tere tulemast!</h1>
-      <p class="lead">Ruutude järgi joonistamise mäng - on veebipõhine rakendus, kus mängija peab kordama etteantud joonise ruutude järgi.</p>
-      <a href="#" class="btn btn-success btn-lg">Piltide loetelu</a>
-    </header>
+    <div class="row">
+      <div class="col-md-8 mb-5">
+        <h2>Meist</h2>
+        <hr>
+        <p>Meie mäng aitab arendada kasutajal oskused pikslite piltide joonistamisel, käte füüsilise tugevuse arendamisel ja mälu harjutamisel. Lisaks tänu mängule saab kasutaja rahuneda oma närvid ning vaba aja häirimata veetma.</p>
+        <a class="btn btn-primary btn-lg" href="#">Jooniste loetelu &raquo;</a>
+      </div>
+    </div>
+    <!-- /.row -->
 
-    <div class="row text-center">
-
-      <div class="col-lg-3 col-md-6 mb-4">
+    <div class="row">
+      <div class="col-md-4 mb-5">
         <div class="card h-100">
           <img class="card-img-top" src="images/charomander_new.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Charmander</h4>
-            <p class="card-text"> 🎨 Charmander, sisalik Pokémon. Charmanderi tervist saab hinnata tema sabaotsa lõkel, mis põleb intensiivse tervise korral intensiivselt.</p>
+            <p class="card-text"> 🔥 Charmander, sisalik Pokémon. Charmanderi tervist saab hinnata tema sabaotsa lõkel, mis põleb intensiivse tervise korral intensiivselt.</p>
           </div>
           <div class="card-footer">
-            <a href="charmander.html" class="btn btn-info">Joonista!!</a>
+            <a href="charmander.html" class="btn btn-primary">Alusta joonistamist!</a>
           </div>
         </div>
       </div>
-
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="images/christmas_minion_new.jpg" alt="">
+          <img class="card-img-top" src="images/pikachu_new.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">Minion</h4>
-            <p class="card-text"> 🖌️Minionid on väikesed, kollased olendid, kes on eksisteerinud aegade algusest ja arenenud kollastest üherakulistest organismidest olenditeks.</p>
+            <h4 class="card-title">Pikachu</h4>
+            <p class="card-text"> 💥 Selle olemus on elektrienergia salvestamine. Metsad, kus elavad Pikachu pesad, on ohtlikud, kuna puid tabab nii sageli välk.</p>
           </div>
           <div class="card-footer">
-            <a href="minion.php" class="btn btn-info">Joonista!</a>
+            <a href="pikachu.html" class="btn btn-primary">Alusta joonistamist!</a>
           </div>
         </div>
       </div>
-
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="images/christmastree_new.jpg" alt="">
+          <img class="card-img-top" src="images/sonic_new.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">Jõulupuu</h4>
-            <p class="card-text"> 🎄Jõulupuu on jõulude ajal ehetega ilustatud puu! Värvige jõulupuu kohe meie Ruutude järgi joonistamise mängu!</p>
+            <h4 class="card-title">Sonic</h4>
+            <p class="card-text"> 💨 Sonic on kiireim tegelane arvutimängude ajaloos. Ta elab oma reeglite järgi, ta armastab vabadust ja seiklusi ega meeldi, kui keegi teda rõhub.</p>
           </div>
           <div class="card-footer">
-            <a href="joulupuu.php" class="btn btn-info">Joonista!</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card h-100">
-          <img class="card-img-top" src="images/hellokitty_new.jpg" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Hello Kitty</h4>
-            <p class="card-text">🐱 Hello Kitty on lahkuse ja sõpruse sümbol, kõigi sisemiste püüdluste peegel. Tal on lahke hing ja ta kutsub oma muinasjutumaailma!</p>
-          </div>
-          <div class="card-footer">
-            <a href="hello-kitty.php" class="btn btn-info">Joonista!</a>
+            <a href="sonic.html" class="btn btn-primary">Alusta joonistamist!</a>
           </div>
         </div>
       </div>
     </div>
+    <!-- /.row -->
 
   </div>
-  <footer class="py-5 bg-dark">
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-primary">
     <div class="container">
-      <p class="m-0 text-center text-white">RJJ &copy; TLU 2020</p>
+      <p class="m-0 text-center text-white">RJJ MÄNG - TLU &copy; 2020</p>
     </div>
+    <!-- /.container -->
   </footer>
+
+  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
 </html>
-  <!-- MS -->
