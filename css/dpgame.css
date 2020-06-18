@@ -81,10 +81,12 @@ h1 {
 
 .dead-red-bg{
   background-color: #ee4035 ;
+  color: black;
 }
 
 .dead-white-bg{
   background-color: #ffffff;
+  color: black;
 }
 
 .dead-black-bg{

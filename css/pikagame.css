@@ -87,26 +87,32 @@ html {
 
   .pika-white-bg{
     background-color: white;
+    color: black;
   }
 
   .pika-grey-bg{
     background-color: #c0c0c0;
+    color: black;
   }
 
   .pika-yellow-bg{
     background-color: #ffff00;
+    color: black;
   }
 
   .pika-darkyellow-bg{
     background-color: #ffcc00 ;
+    color: black;
   }
   
   .pika-lightyellow-bg{
     background-color: #ffff66;
+    color: black;
   }
 
   .pika-red-bg{
     background-color: #ff0000;
+    color: black;
   }
 
   .pika-darkred-bg{
@@ -116,6 +122,7 @@ html {
 
   .pika-pink-bg{
     background-color: #ff9999;
+    color: black;
   }
   
   .hide-copy p {
