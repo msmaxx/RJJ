@@ -289,6 +289,38 @@ h1 {
   color: black;
 }
 
+.groot-black-bg{
+  background-color: black;
+  color: white;
+}
+
+.groot-white-bg{
+  background-color: white;
+  color: black;
+}
+
+.groot-green-btn{
+  background-color: green;
+  color: black;
+}
+
+.groot-brown-btn{
+  background-color: rgb(104, 68, 26);
+}
+
+.groot-dbrown-btn{
+  background-color: rgb(56, 22, 22);
+}
+
+.groot-grey-bg{
+  background-color: #a8a8a8;
+  color: black;
+}
+
+.groot-black-btn{
+  background-color: black;
+}
+
 
 .hide-copy p {
   display: none;
