@@ -1,0 +1,180 @@
+html {
+  font-family: sans-serif;
+  color: white;
+  background-color: #333333;
+}
+
+body {
+  background: rgb(221,237,247);
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.canvass {
+  clear: both;
+  width: 512px;
+  height: 512px;
+  border: 1px solid lightgray;
+  display: block;
+  margin: 0 auto;
+}
+
+.roww {
+  float: left;
+}
+
+.cell {
+  float: left;
+  width: 25px;
+  height: 25px;
+  border: 1px solid lightgray;
+  position: relative;
+  color: black;
+}
+
+.cell p {
+  position: absolute;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+  width: 100%;
+  line-height: 30px;
+}
+
+.btn-container {
+  clear: both;
+  padding-top: 10px;
+  width: 512px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 100px;
+  float: left;
+  padding: 5px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.btn p {
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+}
+
+.btn:hover {
+  box-shadow: 0 0 6px white;
+}
+
+.button {
+  background-color: white;
+  color: black;
+}
+
+.selected {
+  box-shadow: 0 0 6px white;
+}
+
+.red-bg {
+  background-color: #ED1B24;
+}
+
+.brown-bg {
+  background-color: #805600;
+  color: white;
+}
+
+.tan-bg {
+  background-color: #FFC20F;
+}
+
+.black-bg {
+  background-color: #464646;
+  color: white;
+}
+
+.blue-bg {
+  background-color: #00B7F0;
+}
+
+.yellow-bg {
+  background-color: #FEF206;
+  color: black;
+}
+
+.white-bg {
+  background-color: white;
+  color: black;
+}
+
+.charm-red-bg{
+  background-color: #f34135;
+}
+
+.charm-black-bg{
+  background-color: black;
+  color: white;
+}
+
+.charm-yellow-bg{
+  background-color: #ffeb3c;
+}
+
+.charm-orange-bg{
+  background-color: #ff9700;
+}
+
+.charm-white-bg{
+  background-color: white;
+}
+
+.sonic-black-bg{
+  background-color: black;
+  color: white;
+}
+
+.sonic-white-bg{
+  background-color: white;
+}
+
+.sonic-blue-bg{
+  background-color: #2196f3;
+}
+
+.sonic-tan-bg{
+  background-color: #f4ac72;
+}
+
+.sonic-red-bg{
+  background-color: #d50100;
+}
+
+.push-black-bg{
+  background-color: black;
+  color: white;
+}
+
+.push-white-bg{
+  background-color: white;
+}
+
+.push-grey-bg{
+  background-color: #9e9596;
+}
+
+.push-darkgrey-bg{
+  background-color: #4c3e3d;
+}
+
+.push-pink-bg{
+  background-color: #e44eb9;
+}
+
+.hide-copy p {
+  display: none;
+}
+
