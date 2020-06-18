@@ -299,16 +299,16 @@ h1 {
   color: black;
 }
 
-.groot-green-btn{
+.groot-green-bg{
   background-color: green;
   color: black;
 }
 
-.groot-brown-btn{
+.groot-brown-bg{
   background-color: rgb(104, 68, 26);
 }
 
-.groot-dbrown-btn{
+.groot-dbrown-bg{
   background-color: rgb(56, 22, 22);
 }
 
@@ -317,7 +317,7 @@ h1 {
   color: black;
 }
 
-.groot-black-btn{
+.groot-black-bg{
   background-color: black;
 }
 
