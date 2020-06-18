@@ -162,7 +162,8 @@ $("#sonic-black-btn").on("click", function () {
   $(".btn").removeClass("selected");
   $(this).addClass("selected");
 });
-$("#sonic-wjite-btn").on("click", function () {
+
+$("#sonic-white-btn").on("click", function () {
   color = "sonic-white-bg";
   colorNumber = "2";
   $(".btn").removeClass("selected");
@@ -225,49 +226,49 @@ $("#push-pink-btn").on("click", function () {
   $(this).addClass("selected");
 });
 
-$("minion-red-btn").on("click", function () {
+$("#minion-red-btn").on("click", function () {
   color = "minion-red-bg";
   colorNumber = "1";
   $(".btn").removeClass("selected");
   $(this).addClass("selected");
 });
 
-$("minion-blue-btn").on("click", function () {
+$("#minion-blue-btn").on("click", function () {
   color = "minion-blue-bg";
   colorNumber = "2";
   $(".btn").removeClass("selected");
   $(this).addClass("selected");
 });
 
-$("minion-green-btn").on("click", function () {
+$("#minion-green-btn").on("click", function () {
   color = "minion-green-bg";
   colorNumber = "3";
   $(".btn").removeClass("selected");
   $(this).addClass("selected");
 });
 
-$("minion-black-btn").on("click", function () {
+$("#minion-black-btn").on("click", function () {
   color = "minion-black-bg";
   colorNumber = "4";
   $(".btn").removeClass("selected");
   $(this).addClass("selected");
 });
 
-$("minion-grey-btn").on("click", function () {
+$("#minion-grey-btn").on("click", function () {
   color = "minion-grey-bg";
   colorNumber = "5";
   $(".btn").removeClass("selected");
   $(this).addClass("selected");
 });
 
-$("minion-yellow-btn").on("click", function () {
+$("#minion-yellow-btn").on("click", function () {
   color = "minion-yellow-bg";
   colorNumber = "6";
   $(".btn").removeClass("selected");
   $(this).addClass("selected");
 });
 
-$("minion-white-btn").on("click", function () {
+$("#minion-white-btn").on("click", function () {
   color = "minion-white-bg";
   colorNumber = "7";
   $(".btn").removeClass("selected");
@@ -601,7 +602,8 @@ $("#clear").on("click", function () {
   $(".cell").removeClass("minion-green-bg");
   $(".cell").removeClass("minion-red-bg");
   $(".cell").removeClass("minion-purple-bg");
-  $(".cell").removeClass("minion-yellow-bg");$(this).removeClass("kitty-red-bg");
+  $(".cell").removeClass("minion-yellow-bg");
+  $(".cell").removeClass("kitty-red-bg");
   $(".cell").removeClass("kitty-white-bg");
   $(".cell").removeClass("kitty-black-bg");
   $(".cell").removeClass("sword-dgreen-bg");
