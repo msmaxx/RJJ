@@ -28,8 +28,8 @@ h1 {
 
 .cell {
   float: left;
-  width: 24px;
-  height: 24px;
+  width: 25px;
+  height: 25px;
   border: 1px solid lightgray;
   position: relative;
   color: black;
@@ -132,81 +132,6 @@ h1 {
   background-color: white;
 }
 
-.sonic-black-bg{
-  background-color: black;
-  color: white;
-}
-
-.sonic-white-bg{
-  background-color: white;
-}
-
-.sonic-blue-bg{
-  background-color: #2196f3;
-}
-
-.sonic-tan-bg{
-  background-color: #f4ac72;
-}
-
-.sonic-red-bg{
-  background-color: #d50100;
-}
-
-.push-black-bg{
-  background-color: black;
-  color: white;
-}
-
-.push-white-bg{
-  background-color: white;
-}
-
-.push-grey-bg{
-  background-color: #9e9596;
-}
-
-.push-darkgrey-bg{
-  background-color: #4c3e3d;
-}
-
-.push-pink-bg{
-  background-color: #e44eb9;
-}
-
-.minion-black-bg{
-  background-color: black;
-  color: white;
-}
-
-.minion-white-bg{
-  background-color: white;
-}
-
-.minion-green-btn{
-  background-color: green;
-}
-
-.minion-grey-btn{
-  background-color: #535353;
-}
-
-.minion-blue-btn{
-  background-color: #35e7c7;
-}
-
-.minion-red-bg{
-  background-color: red;
-}
-
-.minion-black-btn{
-  background-color: black;
-}
-
-.minion-yellow-btn{
-  background-color: yellow;
-}
-
 .kitty-red-bg{
   background-color: #ff0000;
 }
@@ -267,10 +192,6 @@ h1 {
 
 .dead-black-bg{
   background-color: #000000;
-  color: white;
-}
-.sonic-black-bg{
-  background-color: black;
   color: white;
 }
 
