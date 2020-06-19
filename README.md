@@ -14,4 +14,3 @@ Projekti arendamisel kasutasime Visual Studio Code, Adobe Photoshop, Bootstrap.
 Projektis osalesid: Dmitri Vassiltsov, Elena Dunajeva, Edgar Lainelo, Maksim Sitkin, Timofey Shapovalov.
 
 Projekti repositoorium https://github.com/msmaxx/RJJ
-MS
