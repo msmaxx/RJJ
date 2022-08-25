@@ -1,6 +1,6 @@
 # RJJ
 
-https://wonderful-swanson-8d2991.netlify.app
+https://competent-hawking-39063a.netlify.app
 
 Projekti eesmärk rendada laste käte motoorikat ja mälu samas võib olla heaks stressi eemaldajaks.
 Mäng sobib nii lastele kui ka täiskasvanutele.
